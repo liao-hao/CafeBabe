@@ -16,23 +16,3 @@ public class TestDynamicLoad {
     }
 }
 
-class A {
-    static {
-        System.out.println("*************load A************");
-    }
-
-    public A() {
-        System.out.println("*************initial A************");
-    }
-}
-
-class B {
-    static {
-        System.out.println("*************load B************");
-    }
-
-    public B() {
-        System.out.println("*************initial B************");
-    }
-}
-

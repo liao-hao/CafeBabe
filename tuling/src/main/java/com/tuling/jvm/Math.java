@@ -15,6 +15,11 @@ public class Math {
     public static void main(String[] args) {
         Math math = new Math();
         math.compute();
+        Class<? extends Math> aClass = math.getClass();
+        Class<? extends Class> aClass1 = aClass.getClass();
+
+
+
     }
 
 }
