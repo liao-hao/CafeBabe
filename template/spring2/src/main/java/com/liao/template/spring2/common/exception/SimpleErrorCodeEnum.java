@@ -3,6 +3,7 @@ package com.liao.template.spring2.common.exception;
 public enum SimpleErrorCodeEnum implements ISimpleErrorCodeEnum {
 
     ERROR_GLOBAL(-8000000, "全局异常"),
+    ERROR_PARAM_VALID_FAIL(-80000001, "参数校验失败"),
     ;
 
     private Integer code;
